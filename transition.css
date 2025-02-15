@@ -1,0 +1,29 @@
+div{
+    
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    /* display: inline-block; */
+    /* position: absolute;
+    left: 100px;
+    top: 100px; */
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2s; */
+    /* transition: all 2s steps(3) 2s; */
+    /* transform: rotate(45deg); */
+    /* transform: scale(5); */
+    
+}
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    /* transform: rotate(45deg); */
+    transform: translatex(50px); 
+}
+div:active{
+    background-color: blue;
+}

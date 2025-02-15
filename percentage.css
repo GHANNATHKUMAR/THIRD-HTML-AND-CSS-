@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+display: inline-block;
+font-size: 10px;
+}
+#box2{
+    height: 50px;
+    width: 30%; 
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 10%;
+     font-size: 0.5em; /*means 5 px due to double of font size of box1 parent */
+     width: 5em;/* neans width ho jayega 25px jhud ke font size ka 5times */
+     /* margin-top: 10%; ye bhi widthke hisab se hi */
+}
+#box3{
+    height: 50px;
+    width: 30%;
+    background-color: rgb(255, 0, 51);
+    display: inline-block;
+    /* width: 5rem; yani iska widtjh ho jayega 80px kyonki hello  outerhai aur vo 16px le raha 
+*/
+}

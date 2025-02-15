@@ -1,0 +1,8 @@
+/* #box{
+background-color:blue;
+} */
+ div{
+    background-color: blue;
+    /* this will also work due to one div  */
+ } 
+ 

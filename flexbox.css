@@ -1,0 +1,37 @@
+body{
+text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black ;
+    /* sabhi container me fit karne ki koshish klarta hai jab tak iska content asllow karta hai  */
+}
+#container{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+/* 
+    align-content: flex-start;  */
+/* align-items: flex-end; */
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+    align-self: flex-end;
+}
+#box3{
+    background-color: darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}#box5{
+    background-color: slateblue;
+}
